@@ -80,7 +80,7 @@ margin:10px;
 width:100%}
 
 .hero h1{
-font-size:25px;
+font-size:21.5px;
 width:100%;
 margin:10%;
 position:auto;}
@@ -104,7 +104,7 @@ margin:5%
 
 
 
-@media screen and (max-width:420px)
+@media screen and (max-width:430px)
 {
 	
 
@@ -129,7 +129,7 @@ width:50%;
 }
 }
 
-@media screen and (max-width:320px)
+@media screen and (max-width:330px)
 {
 	
 
@@ -138,18 +138,18 @@ width:50%;
 width:100%}
 
 .hero h1{
-font-size:14px;
+font-size:15px;
 max-width:100%;
 margin:5%
 }
 
 
 .hero h3{
-font-size:11px;
+font-size:12px;
 max-width:100%;
 margin:5%
 }	
 .hero img{
-width:40%;
+width:50%;
 }
 }

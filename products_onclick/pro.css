@@ -8,6 +8,7 @@ body {
 	padding: 0px;
 	display: flex;
 	margin:0px 0px 0px 250px;
+        flex-direction:row;
 	}
 
 /* Hide the images by default */
@@ -126,6 +127,14 @@ body {
 	
 .container{
  width:100%;
+ flex-direction:column;
 }
+.left-column {
+	width:90%;
+	}
+
+.right-column {
+	width:100%;
+	}
 
 }

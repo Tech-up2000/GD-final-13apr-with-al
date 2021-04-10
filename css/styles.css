@@ -520,7 +520,8 @@ Client testimonial
 .owl-carousel{
   margin-left:0%;
 }
-.gd-quote h1{   font-size:25px;text-align: justify;}
+	#client-testimonals h1{font-size:22px;}
+.gd-quote h1{font-size:25px;text-align: justify;}
 }
 
 @media screen and (max-width:320px){
@@ -529,9 +530,9 @@ Client testimonial
   margin-left:0%;
 }
 #client-testimonals h1{
-   font-size:30px;
+   font-size:20px;
 }
-.gd-quote h1{   font-size:20px;  text-align: justify;}
+.gd-quote h1{   font-size:15px;  text-align: justify;}
 }
 
 @media screen and (max-width:300px){
@@ -540,9 +541,9 @@ Client testimonial
   margin-left:0%;
 }
 #client-testimonals h1{
-   font-size:18px;
+   font-size:15px;
 }
 
-.gd-quote h1{   font-size:20px;text-align: justify;}
+.gd-quote h1{font-size:15px;text-align: justify;}
 
 }

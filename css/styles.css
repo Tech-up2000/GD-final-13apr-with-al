@@ -529,9 +529,9 @@ Client testimonial
   margin-left:0%;
 }
 #client-testimonals h1{
-   font-size:35px;
+   font-size:30px;
 }
-.gd-quote h1{   font-size:22px;  text-align: justify;}
+.gd-quote h1{   font-size:20px;  text-align: justify;}
 }
 
 @media screen and (max-width:300px){
@@ -540,7 +540,7 @@ Client testimonial
   margin-left:0%;
 }
 #client-testimonals h1{
-   font-size:20px;
+   font-size:18px;
 }
 
 .gd-quote h1{   font-size:20px;text-align: justify;}

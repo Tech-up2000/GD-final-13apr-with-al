@@ -86,7 +86,6 @@ body {
 .left-column {
 	width:30%;
 	position: relative;
-	margon:50px;
 	}
 
 .right-column {
@@ -134,7 +133,9 @@ body {
 	}
 
 .right-column {
-	width:100%;
+	width:90%;
+        padding:0;
+
 	}
 
 }

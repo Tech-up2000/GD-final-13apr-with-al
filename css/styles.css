@@ -520,6 +520,7 @@ Client testimonial
 .owl-carousel{
   margin-left:0%;
 }
+		.gallery-images{font-size:22px;}
 	#client-testimonals h1{font-size:22px;}
 .gd-quote h1{font-size:18px;text-align: justify;}
 }
@@ -532,6 +533,7 @@ Client testimonial
 #client-testimonals h1{
    font-size:20px;
 }
+		.gallery-images{font-size:20px;}
 .gd-quote h1{   font-size:15px;  text-align: justify;}
 }
 
@@ -543,7 +545,7 @@ Client testimonial
 #client-testimonals h1{
    font-size:15px;
 }
-
+	.gallery-images{font-size:15px;}
 .gd-quote h1{font-size:15px;text-align: justify;}
 
 }

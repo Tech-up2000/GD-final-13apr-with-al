@@ -564,9 +564,9 @@ Contact us and Footer Section
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: bold 16px Times New Roman;
-    padding: 55px;
-    margin-top: 0px;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 80px;
     display:flex;
     flex-direction:row;
    }
@@ -583,11 +583,13 @@ Contact us and Footer Section
    }
     
    .gd-contact-us h3{
-    color: blue;
-    font-family: Times New Roman;
-    font-size:35px;
-    margin: 10px;
-    text-align:left;
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+   }
+    
+   .gd-contact-us h3 span{
+    color:  #ffffff;
    }
     
     
@@ -606,7 +608,7 @@ Contact us and Footer Section
     
    .gd-contact-us .gd-contact-us-company-name{
     color:  #8f9296;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
     margin: 0;
    }
@@ -615,7 +617,6 @@ Contact us and Footer Section
    .gd-contact-us .gd-contact-us-center{
     width: 20%;
     margin-left:5%;
-    margin-right:5%;
     color:white;
     justify-content:center;
    }
@@ -646,10 +647,7 @@ Contact us and Footer Section
    }
 
    .gd-contact-us .gd-contact-us-right{
-  margin:auto;
-  width: 50%;
-  /*border: 3px solid green;*/
-  padding: 10px;
+    width: 30%;
    }
     
    .gd-contact-us .gd-contact-us-company-about{
@@ -697,10 +695,61 @@ Contact us and Footer Section
   color: white;
 }
 
+.dark {
+  
+  margin-top: 5px;
+  margin-left: 2%;
+  padding: 25px;
+  /*background-color: white;*/
+  color: black;
+  
+  font-size: 35px;
+  
+}
+
+.dark-mode {
+  border-radius: 50%;
+  background-color: black;
+  color: rgb(138, 131, 131);
+} 
+
+
+
 /**************************************************************/
 
 
+@media screen and (max-width:440px){
+	
+  .gd-contact-us{
+    flex-direction: column;
+    /*width:100%;*/
+    height:100%;
+    font-size: 15px;
+    text-align:center;
+  }
 
+  .gd-contact-us img{
+    width:100%;
+  }
+
+  .gd-contact-us-center img{
+    width: 10%;
+  }
+  .gd-contact-us-right iframe{
+    width:300px;
+    max-width:100%;
+    height:300px;
+    margin-left:-80%;
+  }
+  #adu{
+    width: 100px;
+    max-width:100%;
+    height:350px;
+    margin-left:-70%;
+  }
+
+
+}
  
 @media (max-width: 880px) {
     
@@ -730,10 +779,81 @@ Contact us and Footer Section
   line-height: normal;
   font-size: auto;
   }
+  #adu{
+    width:300px;
+    max-width:100%;
+    height:250px;
+    margin-left:-70%;
+  }
+
   
  }
 
 
+ @media screen and (max-width:770px){
+	
+  .gd-contact-us{
+    flex-direction: column;
+    /*width:100%;*/
+    height:100%;
+    font-size: 15px;
+    text-align:center;
+  }
+
+  .gd-contact-us img{
+    width:100%;
+  }
+
+  .gd-contact-us-center img{
+    width: 10%;
+  }
+  .gd-contact-us-right iframe{
+    width:300px;
+    max-width:100%;
+    height:300px;
+    margin-left:-20%;
+  }
+  #adu{
+    width: 300px;
+    max-width:100%;
+    height:350px;
+    margin-left:-20%;
+  }
+
+}
+
+@media screen and (max-width: 640px){
+	
+  .gd-contact-us{
+    flex-direction: column;
+    /*width:100%;*/
+    height:100%;
+    font-size: 15px;
+    text-align:center;
+  }
+
+  .gd-contact-us img{
+    width:100%;
+  }
+
+  .gd-contact-us-center img{
+    width: 10%;
+  }
+  .gd-contact-us-right iframe{
+    width:300px;
+    max-width:100%;
+    height:300px;
+    margin-left:-20%;
+  }
+
+ #adu{
+  width:300px;
+  max-width:100%;
+  height:350px;
+  margin-left:-20%;
+ } 
+
+}
 @media screen and (max-width:440px){
 	
   .gd-contact-us{
@@ -757,10 +877,16 @@ Contact us and Footer Section
     height:300px;
     margin-left:-80%;
   }
+  #adu{
+    width: 300px;
+    max-width:100%;
+    height:350px;
+    margin-left:-70%;
+  }
+
 
 }
-
-@media screen and (max-width:370px){
+@media screen and (max-width:420px){
 	
   .gd-contact-us{
     flex-direction: column;
@@ -769,35 +895,6 @@ Contact us and Footer Section
     font-size: 15px;
     text-align:center;
   }
-
-  .gd-contact-us img{
-    width:100%;
-  }
-
-  .gd-contact-us-center img{
-    width: 10%;
-  }
-  .gd-contact-us-right iframe{
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-  }
-
-}
-
-
-
-@media screen and (max-width:770px){
-	
-  .gd-contact-us{
-    flex-direction: column;
-    /*width:100%;*/
-    height:100%;
-    font-size: 15px;
-    text-align:center;
-  }
-  .gd-contact-us h3{text-align:center;}
 
   .gd-contact-us img{
     width:100%;
@@ -810,7 +907,65 @@ Contact us and Footer Section
     width:300px;
     max-width:100%;
     height:300px;
-    margin-left:-20%;
+    margin-left:-80%;
+  }
+  #adu{
+    width: 300px;
+    max-width:100%;
+    height:350px;
+    margin-left:-70%;
+  }
+
+}
+
+@media screen and (max-width:360px){
+	
+  .gd-contact-us{
+    flex-direction: column;
+    /*width:100%;*/
+    height:100%;
+    font-size: 15px;
+    text-align:center;
+  }
+
+  .gd-contact-us img{
+    width:100%;
+  }
+
+  .gd-contact-us-center img{
+    width: 10%;
+  }
+  #adu{
+    width: 300px;
+    max-width:100%;
+    height:350px;
+    margin-left:-70%;
+  }
+
+}
+
+@media screen and (max-width:240px){
+	
+  .gd-contact-us{
+    flex-direction: column;
+    /*width:100%;*/
+    height:100%;
+    font-size: 15px;
+    text-align:center;
+  }
+
+  .gd-contact-us img{
+    width:100%;
+  }
+
+  .gd-contact-us-center img{
+    width: 10%;
+  }
+  #adu{
+    width: 200px;
+    max-width:100%;
+    height:200px;
+    margin-left:-100%;
   }
 
 }

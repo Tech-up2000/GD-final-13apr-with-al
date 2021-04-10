@@ -521,10 +521,10 @@ Client testimonial
   margin-left:0%;
 }
 	#client-testimonals h1{font-size:22px;}
-.gd-quote h1{font-size:25px;text-align: justify;}
+.gd-quote h1{font-size:15px;text-align: justify;}
 }
 
-@media screen and (max-width:320px){
+/*@media screen and (max-width:320px){
 
 .owl-carousel{
   margin-left:0%;
@@ -546,4 +546,4 @@ Client testimonial
 
 .gd-quote h1{font-size:15px;text-align: justify;}
 
-}
+}*/
